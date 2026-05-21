@@ -1,5 +1,3 @@
-# AXON Wireless-IMU-Driven-Robotic-Hand
-Wireless IMU-driven robotic hand controlled via a wearable glove over ESP-NOW.
 # Axon — Wireless IMU-Driven Robotic Hand
 
 A servo-driven robotic hand controlled in real time via a wearable glove, communicating wirelessly over ESP-NOW. Each finger is tracked independently using an MPU6500 IMU, replicating the operator's hand movements with low latency across a wireless link.
