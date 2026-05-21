@@ -82,6 +82,9 @@ Built with assistance from AI tooling for implementation. System architecture, s
 ### Hand
 <img width="930" height="722" alt="receiver_schematic" src="https://github.com/user-attachments/assets/74f468f2-cc55-4499-ae9a-d1da7fabf7de" />
 
+### Overall Glove Schematic
+
+<img width="428" height="478" alt="overall_glove_schematic" src="https://github.com/user-attachments/assets/2b9f1a0a-b035-4c53-93a6-91868ce6ff4a" />
 
 ---
 
