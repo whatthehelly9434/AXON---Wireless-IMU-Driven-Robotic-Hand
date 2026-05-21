@@ -21,13 +21,6 @@ https://github.com/user-attachments/assets/ab849606-339d-44fb-b26b-eb3253a73d4d
 
 Two-node ESP-NOW architecture. The glove node reads 6 IMUs (5 fingers + wrist) through a TCA9548A I2C multiplexer, computes finger angles, and transmits a lightweight packet wirelessly at ~50Hz. The hand node receives the packet and drives 5 servos with a smoothing loop to eliminate jitter.
 
-🧤 SENDER (Glove)              📡 ESP-NOW               🤖 RECEIVER (Hand)
-├─ 6 × MPU6500 IMUs           ~50Hz packet            ├─ 5 × MG90S Servos
-├─ TCA9548A Multiplexer       lightweight struct      └─ Incremental smoothing
-├─ Complementary Filter
-├─ Wrist Cross-talk Comp.
-└─ Per-finger Angle Calc.
-
 ---
 
 ## How It Works
